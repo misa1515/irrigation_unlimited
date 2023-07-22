@@ -1,0 +1,31 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Plán",
+                "description": "Ak potrebujete pomoc s konfiguráciou, pozrite sa sem: https://github.com/custom-components/integration_blueprint",
+                "data": {
+                    "username": "Používateľské meno",
+                    "password": "Heslo"
+                }
+            }
+        },
+        "error": {
+            "auth": "Užívateľské meno/Heslo je nesprávne."
+        },
+        "abort": {
+            "single_instance_allowed": "Povolený je len jeden prípad."
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "binary_sensor": "Binárny snímač aktivovaný",
+                    "sensor": "Snímač povolený",
+                    "switch": "Prepínač povolený"
+                }
+            }
+        }
+    }
+}
